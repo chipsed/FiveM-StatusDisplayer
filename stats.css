@@ -1,0 +1,47 @@
+/* 
+
+    IF Pure Style.
+
+*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+.serverContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1c1c1c;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mainContainer {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 17px;
+    color: white;
+}
+
+.mainContainer .box {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainContainer .secondbox {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.online {
+    color: green;
+}
